@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  .left {
+    width: 19%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+    .top {
+      width: 100%;
+      height: 84px;
+      background-color: chocolate;
+      padding: 10px 20px;
+
+      &:before {
+        content: "1";
+      }
+    }
+
+  }
+
+  .right {
+    width: 81%;
+    height: 100%;
+  }
+}

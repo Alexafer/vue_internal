@@ -32,6 +32,7 @@
 npm-debug.log
 yarn-error.log
 testem.log
+style.css.map
 /typings
 
 # System Files
